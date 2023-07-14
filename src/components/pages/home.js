@@ -4,8 +4,8 @@ import "./Home.css";
 // import slidesData from "./components/slidesData";
 // import Slider from './components/Slider';
 
-function home (){
-    
+function home () {
+
     return (
         // <section className="home" id="home">
         //     <img src = "back.jpg"></img>
@@ -15,27 +15,29 @@ function home (){
         //  <a href ="#" className="btn">get yours now</a>
         //       </div>
         // </section>
-        <div className="body">
-            <div className="Column">
-                <div className="Row">  
-                <div className="home">
+//         <div className="body">
+//             <div className="Column">
+//                 <div className="Row">  
+//                 <div className="home">
       
-      <img src ="back.jpg" width={450} height={350} alt="Background"/>
+//       <img src ="back.jpg" width={450} height={350} alt="Background"/>
   
-  </div>
-                 </div>
+//   </div>
+//                  </div>
                  
-                 <div className="Row">
-                    <h1>ONLINE BAKERY SHOPPING</h1>
-                 </div>
+//                  <div className="Row">
+//                     <h1>ONLINE BAKERY SHOPPING</h1>
+//                  </div>
             
-            </div>
+//             </div>
             
  
-        </div>
+//         </div>
         
-       
-    )
-}
+       <section className="p-0 Home-section">
+
+       </section><Homesection />
+    );
+};
 export default home;
 
